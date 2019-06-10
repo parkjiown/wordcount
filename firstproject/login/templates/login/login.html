@@ -1,0 +1,14 @@
+{% extends "login/navbar.html" %}
+<body>
+    {% block navbar %} 
+
+    {% endblock %}
+    <h1>Login</h1>
+    <form action = "{% url 'check' %}" method ="GET">
+        Id
+        <input type="text" name="Your ID">
+        Pwd
+        <input type="password" name="PassWord">
+        <button type="submit">Submit</button>
+    </form>
+</body>

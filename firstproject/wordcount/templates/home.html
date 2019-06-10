@@ -1,0 +1,37 @@
+<h1>안녕하세요, 여기서 글자를 세십셔!</h1>
+
+<div class="card">
+    <div class="card-header">
+     -Word Count 실습-
+    </div>
+    <div class="card-body">
+      <h5 class="card-title"> 장고 실습을 하며 느낀점 </h5>
+      <p class="card-text"> 멋사에 들어와 코딩을 배우면서 장고를 배울때 가장 힘들었던 것 같지만 
+          <br>그래도 하고 나서 가장 뿌듯한건 장고실습인것 같습니다. 
+          <br>열심히 해야하는데 자꾸 현생에 치여 코딩에 소홀히 하는 것 같아 씁쓸합니다
+          방학하고 나고 있을 프로젝트들을 하면서 정말 힘들겠지만 잘해내고싶은 마음도 큽니다.
+          <br> 아래 링크를 누르면 wordcount를 만드는 방법을 설명해주는
+          유튜브영상링크가 걸려있습니다. </p>
+      <a href="https://class.likelion.org/lectures/django" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  
+  <br> 
+  <div class="card">
+        <div class="card-body">
+          This is some text within a card body.
+        </div>
+      </div>
+
+  <a href="{%url 'about'%}"> ABOUT </a>
+
+
+
+<form action="{%url 'result'%}">
+    <textarea cols = "40" rows="10" name = "fulltext"></textarea>
+    <br>
+    <input type="submit" value="Count!">
+
+
+
+</form>
